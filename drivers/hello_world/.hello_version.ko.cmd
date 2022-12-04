@@ -1,0 +1,1 @@
+cmd_/home/rpisesteva/Documents/IMD/hello_world/hello_version.ko := ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/rpisesteva/Documents/IMD/hello_world/hello_version.ko /home/rpisesteva/Documents/IMD/hello_world/hello_version.o /home/rpisesteva/Documents/IMD/hello_world/hello_version.mod.o;  true

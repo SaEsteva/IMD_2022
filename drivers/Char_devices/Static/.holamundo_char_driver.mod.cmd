@@ -1,0 +1,1 @@
+cmd_/home/rpisesteva/Documents/IMD/Char_devices/Static/holamundo_char_driver.mod := { echo  /home/rpisesteva/Documents/IMD/Char_devices/Static/holamundo_char_driver.o;  echo; } > /home/rpisesteva/Documents/IMD/Char_devices/Static/holamundo_char_driver.mod

@@ -1,0 +1,1 @@
+cmd_/home/rpisesteva/Documents/IMD/hello_world/hello_version.mod := { echo  /home/rpisesteva/Documents/IMD/hello_world/hello_version.o;  echo; } > /home/rpisesteva/Documents/IMD/hello_world/hello_version.mod

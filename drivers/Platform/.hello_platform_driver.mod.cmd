@@ -1,0 +1,1 @@
+cmd_/home/rpisesteva/Documents/IMD/Platform/hello_platform_driver.mod := { echo  /home/rpisesteva/Documents/IMD/Platform/hello_platform_driver.o;  echo; } > /home/rpisesteva/Documents/IMD/Platform/hello_platform_driver.mod

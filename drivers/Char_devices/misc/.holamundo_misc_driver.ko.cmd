@@ -1,0 +1,1 @@
+cmd_/home/rpisesteva/Documents/IMD/Char_devices/misc/holamundo_misc_driver.ko := ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/rpisesteva/Documents/IMD/Char_devices/misc/holamundo_misc_driver.ko /home/rpisesteva/Documents/IMD/Char_devices/misc/holamundo_misc_driver.o /home/rpisesteva/Documents/IMD/Char_devices/misc/holamundo_misc_driver.mod.o;  true

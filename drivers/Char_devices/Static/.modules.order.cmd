@@ -1,0 +1,1 @@
+cmd_/home/rpisesteva/Documents/IMD/Char_devices/Static/modules.order := {   echo /home/rpisesteva/Documents/IMD/Char_devices/Static/holamundo_char_driver.ko; :; } | awk '!x[$$0]++' - > /home/rpisesteva/Documents/IMD/Char_devices/Static/modules.order
