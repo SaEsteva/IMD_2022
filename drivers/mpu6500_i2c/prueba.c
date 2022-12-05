@@ -117,10 +117,10 @@ int main(int argc, char *argv[]) {
 
 	i2c_write(REG_PWR_MGMT_1, 0x01);
 	i2c_write(REG_ACCEL_CONFIG, 0x00);
-	i2c_write(REG_SMPRT_DIV, 0x07);
 	i2c_write(REG_CONFIG, 0x00);
-	i2c_write(REG_FIFO_EN, 0x88);
+	i2c_write(REG_SMPRT_DIV, 0x07);
 	i2c_write(REG_USER_CTRL, 0x44);
+	i2c_write(REG_FIFO_EN, 0x08);
 
 	while(fifo_len != 1024) {
 		accel_x_h = i2c_read(REG_FIFO_COUNT_L);
@@ -156,6 +156,7 @@ int main(int argc, char *argv[]) {
 			temp_f = (float)temp/340 + 36.53; // calculated as described in the MPU60%) register map document
 
 			printf("x_accel %.3fg	y_accel %.3fg	z_accel %.3fg	temp=%.1fc         \r\n", x_accel_g, y_accel_g, z_accel_g, temp_f);
+			usleep(500000);
 		} else {
 			usleep(10000);
 		}

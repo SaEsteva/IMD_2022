@@ -1,0 +1,1 @@
+cmd_/home/rpisesteva/Documents/IMD/mpu6500_i2c/mpu6500_i2c.mod := { echo  /home/rpisesteva/Documents/IMD/mpu6500_i2c/mpu6500_i2c.o;  echo; } > /home/rpisesteva/Documents/IMD/mpu6500_i2c/mpu6500_i2c.mod

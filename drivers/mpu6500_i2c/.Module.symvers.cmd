@@ -1,0 +1,1 @@
+cmd_/home/rpisesteva/Documents/IMD/mpu6500_i2c/Module.symvers := sed 's/\.ko$$/\.o/' /home/rpisesteva/Documents/IMD/mpu6500_i2c/modules.order | scripts/mod/modpost -m -a  -o /home/rpisesteva/Documents/IMD/mpu6500_i2c/Module.symvers -e -i Module.symvers   -T -

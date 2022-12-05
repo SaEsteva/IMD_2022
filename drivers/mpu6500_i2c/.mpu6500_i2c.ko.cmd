@@ -1,0 +1,1 @@
+cmd_/home/rpisesteva/Documents/IMD/mpu6500_i2c/mpu6500_i2c.ko := ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/rpisesteva/Documents/IMD/mpu6500_i2c/mpu6500_i2c.ko /home/rpisesteva/Documents/IMD/mpu6500_i2c/mpu6500_i2c.o /home/rpisesteva/Documents/IMD/mpu6500_i2c/mpu6500_i2c.mod.o;  true
