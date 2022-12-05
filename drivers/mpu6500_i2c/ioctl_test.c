@@ -18,6 +18,7 @@ int main(void)
     while(1){
         if (my_dev < 0) {
             perror("Fail to open device file: /dev/mpu_device.");
+            return -1;
         } else {
             ret= ioctl(my_dev, 0, &data);
             value = ((float) data)/ACELLSCALE;
